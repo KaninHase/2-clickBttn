@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Call a JavaScript function
+		in ondblclick event
+	</title>
+</head>
+
+<body>
+	<h2>Ein besonderer Knopf!</h2>
+	<p id="paragraph">Ändere die Farbe dieses Textes</p>
+	<button ondblclick="colorFunction()">klicke auf mich</button>
+
+<script type="text/javascript">
+	function colorFunction(){
+		document.getElementById("paragraph").style.color = "pink";
+	}
+</script>
+
+</body>
+</html>
